@@ -15,4 +15,6 @@ dependencies:
   - media
   - responsive_image
   - text
+  - user
   - views
+core_incompatible: false
