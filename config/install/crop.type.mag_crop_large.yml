@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+label: Large
+id: mag_crop_large
+description: 'Magazine crop for large'
+aspect_ratio: '1012:400'
+soft_limit_width: 1012
+soft_limit_height: 400
+hard_limit_width: null
+hard_limit_height: null

@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: mag_lbs_contained_width
+label: 'Contained width'
+classes: contained-width
+type: component
+block_restrictions:
+  - 'entity_browser_block:mag_ebr_image'

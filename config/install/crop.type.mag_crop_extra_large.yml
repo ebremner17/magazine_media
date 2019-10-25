@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+label: 'Extra large'
+id: mag_crop_extra_large
+description: 'Magazine crop for extra large'
+aspect_ratio: '1280:450'
+soft_limit_width: 1280
+soft_limit_height: 450
+hard_limit_width: null
+hard_limit_height: null

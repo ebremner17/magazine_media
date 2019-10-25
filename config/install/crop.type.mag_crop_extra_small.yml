@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+label: 'Extra small'
+id: mag_crop_extra_small
+description: 'Magazine crop for extra small'
+aspect_ratio: '400:250'
+soft_limit_width: 400
+soft_limit_height: 250
+hard_limit_width: null
+hard_limit_height: null

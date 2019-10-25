@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.mag_crop_extra_large
+  module:
+    - crop
+name: mag_is_extra_large
+label: 'Extra large'
+effects:
+  00bb76b7-4b1c-44ce-be27-006c11a089b6:
+    uuid: 00bb76b7-4b1c-44ce-be27-006c11a089b6
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: mag_crop_extra_large

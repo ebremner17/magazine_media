@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.mag_crop_small
+  module:
+    - crop
+name: mag_is_small
+label: Small
+effects:
+  100c8d05-c795-4263-8ce9-dbd2e8030ec5:
+    uuid: 100c8d05-c795-4263-8ce9-dbd2e8030ec5
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: mag_crop_small

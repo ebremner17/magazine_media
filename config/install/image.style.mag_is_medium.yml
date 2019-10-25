@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.mag_crop_medium
+  module:
+    - crop
+name: mag_is_medium
+label: Medium
+effects:
+  9091f0a8-7c9c-491b-8d3c-09a738cfd6d0:
+    uuid: 9091f0a8-7c9c-491b-8d3c-09a738cfd6d0
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: mag_crop_medium

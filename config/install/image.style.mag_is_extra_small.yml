@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.mag_crop_extra_small
+  module:
+    - crop
+name: mag_is_extra_small
+label: 'Extra small'
+effects:
+  e25dc8be-8997-4bf7-93e2-7529f41718ca:
+    uuid: e25dc8be-8997-4bf7-93e2-7529f41718ca
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: mag_crop_extra_small

@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mag_view_ebr_image
+  module:
+    - entity_browser_entity_form
+    - views
+name: mag_ebr_image
+label: Image
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  2e629275-130b-4cd1-a53c-6b4c71e6ea47:
+    settings:
+      entity_type: media
+      bundle: mag_mt_image
+      form_mode: default
+      submit_text: 'Save image'
+    uuid: 2e629275-130b-4cd1-a53c-6b4c71e6ea47
+    weight: 1
+    label: Upload
+    id: entity_form
+  328cbed9-3eb9-4fd4-ab77-42f6d9562392:
+    settings:
+      view: mag_view_ebr_image
+      view_display: entity_browser_1
+      submit_text: 'Select images'
+      auto_select: false
+    uuid: 328cbed9-3eb9-4fd4-ab77-42f6d9562392
+    weight: 2
+    label: View
+    id: view

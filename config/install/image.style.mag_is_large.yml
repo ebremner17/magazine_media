@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.mag_crop_large
+  module:
+    - crop
+name: mag_is_large
+label: Large
+effects:
+  5f2a4656-a5e6-427f-b8fb-5d78cfc20adf:
+    uuid: 5f2a4656-a5e6-427f-b8fb-5d78cfc20adf
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: mag_crop_large

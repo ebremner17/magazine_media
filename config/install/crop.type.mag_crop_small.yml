@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+label: Small
+id: mag_crop_small
+description: 'Magazine crop for small'
+aspect_ratio: '450:250'
+soft_limit_width: 450
+soft_limit_height: 250
+hard_limit_width: null
+hard_limit_height: null

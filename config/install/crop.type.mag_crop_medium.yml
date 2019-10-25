@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+label: Medium
+id: mag_crop_medium
+description: 'Magazine crop for medium'
+aspect_ratio: '797:400'
+soft_limit_width: 797
+soft_limit_height: 400
+hard_limit_width: null
+hard_limit_height: null

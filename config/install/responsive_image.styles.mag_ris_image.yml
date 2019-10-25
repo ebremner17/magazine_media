@@ -1,0 +1,48 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.large
+    - image.style.mag_is_extra_large
+    - image.style.mag_is_extra_large_wide
+    - image.style.mag_is_extra_small
+    - image.style.mag_is_large
+    - image.style.mag_is_medium
+    - image.style.mag_is_small
+  theme:
+    - magazine_theme
+id: mag_ris_image
+label: 'Magazine Responsive Image'
+image_style_mappings:
+  -
+    breakpoint_id: magazine.xlargewide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: mag_is_extra_large_wide
+  -
+    breakpoint_id: magazine.xlarge
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: mag_is_extra_large
+  -
+    breakpoint_id: magazine.large
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: mag_is_large
+  -
+    breakpoint_id: magazine.medium
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: mag_is_medium
+  -
+    breakpoint_id: magazine.small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: mag_is_small
+  -
+    breakpoint_id: magazine.xsmall
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: mag_is_extra_small
+breakpoint_group: magazine_theme
+fallback_image_style: large
