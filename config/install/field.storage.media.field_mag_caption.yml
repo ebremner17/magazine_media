@@ -7,8 +7,9 @@ dependencies:
 id: media.field_mag_caption
 field_name: field_mag_caption
 entity_type: media
-type: text_long
-settings: {  }
+type: text
+settings:
+  max_length: 255
 module: text
 locked: false
 cardinality: 1

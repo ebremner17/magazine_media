@@ -11,10 +11,10 @@ field_name: field_mag_caption
 entity_type: media
 bundle: mag_mt_image
 label: Caption
-description: 'Enter the caption that goes with the image'
+description: 'Enter to caption that goes with the image'
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: text

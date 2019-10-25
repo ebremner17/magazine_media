@@ -19,23 +19,23 @@ selection_display_configuration: {  }
 widget_selector: tabs
 widget_selector_configuration: {  }
 widgets:
-  2e629275-130b-4cd1-a53c-6b4c71e6ea47:
+  24ee35ba-bd07-4ea6-adab-3c57f6e71e77:
     settings:
       entity_type: media
       bundle: mag_mt_image
       form_mode: default
       submit_text: 'Save image'
-    uuid: 2e629275-130b-4cd1-a53c-6b4c71e6ea47
+    uuid: 24ee35ba-bd07-4ea6-adab-3c57f6e71e77
     weight: 1
     label: Upload
     id: entity_form
-  328cbed9-3eb9-4fd4-ab77-42f6d9562392:
+  418f1935-7755-475d-aef0-a57b2098b0ae:
     settings:
       view: mag_view_ebr_image
       view_display: entity_browser_1
       submit_text: 'Select images'
       auto_select: false
-    uuid: 328cbed9-3eb9-4fd4-ab77-42f6d9562392
+    uuid: 418f1935-7755-475d-aef0-a57b2098b0ae
     weight: 2
     label: View
     id: view
